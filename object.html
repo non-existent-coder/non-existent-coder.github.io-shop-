@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Details - Anime Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practise Project">
+    <meta name="author" content="Nandhika">
+</head>
+
+<body>
+    <div class="header">
+        <div class="heading">
+            <h1 class="heading"><a href="index.html" style="color:rgb(200, 200, 200);">Anime Shop</a></h1>
+        </div>
+        <div class="nav-bar">
+            <!-- list ele wiith anchor-->
+            <ul><a href="dresses.html" style="color:black">Boys Wear</a></ul>
+            <ul><a href="dresses.html" style="color:black">Girls Wear</a></ul>
+            <ul><a href="dresses.html" style="color:black">Women's Wear</a></ul>
+            <ul><a href="dresses.html" style="color:black">Men's Wear</a></ul>
+        </div>
+    </div>
+
+    <div class="product-box" style="display:flex; flex-direction:row; flex-wrap: wrap; width: 100%;align-items: center; text-align: center; justify-content: space-between;">
+            <div>
+        <img style="margin:2%; border:1px solid black;position: relative;" src="img/aot.jpg" width="500px" height="500px" alt="dress back and front view">
+        <div style="display:flex; flex-direction:row; flex-wrap: wrap; ">
+            <img style="margin:1%; border:1px solid black;" src="img/aot.jpg" width="100px" height="100px" alt="dress back and front view">
+            <img style="margin:1%; border:1px solid black;" src="img/aot.jpg" width="100px" height="100px" alt="dress back and front view">
+            <img style="margin:1%; border:1px solid black;" src="img/aot.jpg" width="100px" height="100px" alt="dress back and front view">
+            <img style="margin:1%; border:1px solid black;" src="img/aot.jpg" width="100px" height="100px" alt="dress back and front view">
+            
+        </div>
+        </div>
+        
+        <div style="display:flex; flex-direction:column; width: 60%; background-color: rgba(219, 219, 185,0.5); margin:2%;">
+        
+        <h1 class ="productt" >Cosplay <span style="color:rgb(212, 92, 9); "> !AOT Edition! </span> Costume </h1>
+        
+        <div style="display:flex; flex-direction:row; text-align: left; margin: 5%;padding: 2px;">
+        <h1>Price:</h1><h1 style="font-weight:lighter; margin-left: 10%;">Rs. 3000/-</h1>
+        </div>
+        <div style="display:flex; flex-direction:row; text-align: left; margin-left: 5%;margin-top:-50px;padding: 2px;">
+        <h2>Description: </h2>
+        <p style="margin-left: 4%;width: 80%;" class="description"> It is a comfortable cape made with good fibre which will last longer and also make you comfortable.<br>
+            <span style="font-weight: bolder;">Care Instructions:</span> Machine Wash
+            High Quality Material - Made of high quality material, uniform cloth + nylon, easy to take care of, obtain a fuller drape in the fabric; Comfortable to wear also
+            Great Design - Hooded style makes mysterious, The cloak is in good design with great material, The symbol is sewed vividly
+            Suitable Occasions - Halloween, Birthday, Masquerade, Christmas, Carnival,theme parties,clothing parties, costume ball, family gatherings, Halloween Party, stage show and any other special occasions
+            <br>
+            <ul style="margin-right: 2%;"><li><span style="font-weight: bolder;">Package </span> - This product includes 2 pcs (Cloak + Necklace).</li>
+            <li><span style="font-weight: bolder;">Cloak One Size</span> : 29.9 inches length</li>
+            <li><span style="font-weight: bolder;">Garment Care</span> - Hand and machine washable, hang dry; eco-friendly printing</li></p>
+         <!-- dropdown size --></div>
+         <div style="display:flex; flex-direction:row;">
+         <h2 style="margin-left: 5%;padding: 2px;"> Select Size: </h2>
+         <select id="size" name="size" style="margin-left: 5%;font-size: 15px;size:2;width: 10%; height: 5%; margin-top: 28px;">
+            <option value="extra small">XS</option>
+            <option value="small">S</option>
+            <option value="medium">M</option>
+            <option value="large">L</option>
+            <option value="extra large">XL</option>
+         </select>
+        </div>
+        
+        <div><a href="cart.html"><button style="width:150px; margin: 5%; height:40px;border:none;  font-size: 20px; font-weight: bolder; background-color: black; text-align: center; color: white;">Add to Cart</button></a></div>
+        
+
+
+        <h2>Already bought?</h2>
+                <div style="display: flex; flex-direction: row ; justify-content: center; font-size: 20px;">
+                    <label><input type="radio" name="review">1</label>
+                    <label><input type="radio" name="review">2</label>
+                    <label><input type="radio" name="review">3</label>
+                    <label><input type="radio" name="review">4</label>
+                    <label><input type="radio" name="review" checked>5 Star</label>
+                </div>
+        <h3>Leave a review</h3>
+        <div><button style="justify-content: right;align-items:right;width:150px; margin: 1%; height:40px;border:none;  font-size: 20px; font-weight: bolder; background-color: white; text-align: center; color: black;"type="submit">review</button>
+         <!-- radiobutton review  features-->
+    </div></div>
+
+</div>
+<div class="footer">
+    <!-- copyright and contact -->
+    
+    <button class="footer" style="border-color: white" type="submit">Contact</button>
+    <p class="footer">Demo only @ Nandhika</p>
+</div>
+</body>
+
+</html>
